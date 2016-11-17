@@ -28,6 +28,17 @@ public class Practice {
 
    		// System.out.println("Your bmi is " + bmi);
 
-   		System.out.println(true ^ false);
+   		// System.out.println(true ^ false);
+
+   		int x = 1;
+
+   		switch (x){
+   			case 1: System.out.println("working");
+   					break;
+   			case 2: System.out.println("test another value");
+   					break;
+   			default: System.out.println("Should not be seeing this.");
+   		}
+
    }
 }
