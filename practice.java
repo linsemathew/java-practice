@@ -30,15 +30,15 @@ public class Practice {
 
    		// System.out.println(true ^ false);
 
-   		int x = 1;
+   		// int x = 1;
 
-   		switch (x){
-   			case 1: System.out.println("working");
-   					break;
-   			case 2: System.out.println("test another value");
-   					break;
-   			default: System.out.println("Should not be seeing this.");
-   		}
-
+   		// switch (x){
+   		// 	case 1: System.out.println("working");
+   		// 			break;
+   		// 	case 2: System.out.println("test another value");
+   		// 			break;
+   		// 	default: System.out.println("Should not be seeing this.");
+   		// }
+   		System.out.println((true) ? "this is true" : "this is false");
    }
 }
