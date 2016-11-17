@@ -27,5 +27,7 @@ public class Practice {
    		// double bmi = weight_in_kilograms / (height_in_meters * height_in_meters);
 
    		// System.out.println("Your bmi is " + bmi);
+
+   		System.out.println(true ^ false);
    }
 }
