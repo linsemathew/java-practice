@@ -39,6 +39,13 @@ public class Practice {
    		// 			break;
    		// 	default: System.out.println("Should not be seeing this.");
    		// }
-   		System.out.println((true) ? "this is true" : "this is false");
+   		// System.out.println((true) ? "this is true" : "this is false");
+
+   		String first = "test";
+   		String second = "test";
+
+   		if (first.equals(second)){
+   			System.out.println("This is the same");
+   		}
    }
 }
