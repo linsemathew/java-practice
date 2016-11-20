@@ -41,11 +41,24 @@ public class Practice {
    		// }
    		// System.out.println((true) ? "this is true" : "this is false");
 
-   		String first = "test";
-   		String second = "test";
+   		// String first = "test";
+   		// String second = "test";
 
-   		if (first.equals(second)){
-   			System.out.println("This is the same");
-   		}
+   		// if (first.equals(second)){
+   		// 	System.out.println("This is the same");
+   		// }
+
+   		// int first = 2;
+   		// int second = 2;
+
+   		// if (first == second){
+   		// 	System.out.println("This is the same");
+   		// }
+
+   		int years = 0;
+		    for(int tuition = 10000; tuition < 20000; tuition *= 1.07){
+		      years++;
+		    }
+		    System.out.println(years);
    }
 }
